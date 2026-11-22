@@ -4,7 +4,7 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "sonosaki-slides";
-const VERSION = "484c2df89623";
+const VERSION = "1b16d4160031";
 const FILES = {
  "index.html": "49e2b6a52923",
  "trig/1_graph-shuuki.html": "07adf17c57bf",
@@ -109,10 +109,10 @@ const FILES = {
  "vector/3_keisan-zukei.html": "a018696b313e",
  "vector/4_seibun.html": "3ee05ee8492e",
  "vector/5_naiseki.html": "5d5913b95a88",
- "vector/6_naiseki-keisan.html": "431baeb4ed9c",
+ "vector/6_naiseki-keisan.html": "353ce4ffe829",
  "vector/7_ichi-vector.html": "78a55611cd1f",
- "vector/8_icchokusen-kouten.html": "815b7301a74b",
- "vector/9_zukei-shoumei.html": "a2bf49e4929c",
+ "vector/8_icchokusen-kouten.html": "30195ea90a6b",
+ "vector/9_zukei-shoumei.html": "9055f1112cce",
  "vector/10_vector-houteishiki.html": "88ebdf243b87",
  "vector/11_sonzai-hani.html": "f359ec6b1901",
  "vector/katex/katex.min.css": "3f94e1b737ae",
@@ -141,10 +141,10 @@ const FILES = {
  "space-vector/2_rittai-vector.html": "f14c3359b441",
  "space-vector/3_seibun.html": "263bd79688ed",
  "space-vector/4_naiseki.html": "b07240b01b01",
- "space-vector/5_naiseki-ouyou.html": "7cab88b4e770",
+ "space-vector/5_naiseki-ouyou.html": "67a9b7c4405d",
  "space-vector/6_ichi-vector.html": "2f3b56aeadfd",
- "space-vector/7_chokusen-heimen.html": "fa66f6712f1b",
- "space-vector/8_kyuumen.html": "cf2b44f1d98d",
+ "space-vector/7_chokusen-heimen.html": "f2757ed3dcb3",
+ "space-vector/8_kyuumen.html": "e2b023a327ab",
  "space-vector/katex/katex.min.css": "3f94e1b737ae",
  "space-vector/katex/katex.min.js": "4881bfc93aaf",
  "space-vector/katex/fonts/KaTeX_AMS-Regular.woff2": "34494743736f",
