@@ -4,9 +4,9 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "sonosaki-slides";
-const VERSION = "407410728e9c";
+const VERSION = "484c2df89623";
 const FILES = {
- "index.html": "0190dc2e73eb",
+ "index.html": "49e2b6a52923",
  "trig/1_graph-shuuki.html": "07adf17c57bf",
  "trig/2_houteishiki-futoushiki.html": "4d91a0f95cf0",
  "trig/3_wa-sa-to-shiki.html": "c8cfc2225e9c",
@@ -136,7 +136,37 @@ const FILES = {
  "vector/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
  "vector/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
  "vector/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
- "vector/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
+ "vector/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6",
+ "space-vector/1_kuukan-zahyou.html": "85b2370ad41d",
+ "space-vector/2_rittai-vector.html": "f14c3359b441",
+ "space-vector/3_seibun.html": "263bd79688ed",
+ "space-vector/4_naiseki.html": "b07240b01b01",
+ "space-vector/5_naiseki-ouyou.html": "7cab88b4e770",
+ "space-vector/6_ichi-vector.html": "2f3b56aeadfd",
+ "space-vector/7_chokusen-heimen.html": "fa66f6712f1b",
+ "space-vector/8_kyuumen.html": "cf2b44f1d98d",
+ "space-vector/katex/katex.min.css": "3f94e1b737ae",
+ "space-vector/katex/katex.min.js": "4881bfc93aaf",
+ "space-vector/katex/fonts/KaTeX_AMS-Regular.woff2": "34494743736f",
+ "space-vector/katex/fonts/KaTeX_Caligraphic-Bold.woff2": "5bfa49cac46c",
+ "space-vector/katex/fonts/KaTeX_Caligraphic-Regular.woff2": "9f8077e0b38a",
+ "space-vector/katex/fonts/KaTeX_Fraktur-Bold.woff2": "f98f89272eca",
+ "space-vector/katex/fonts/KaTeX_Fraktur-Regular.woff2": "a5764c6e2784",
+ "space-vector/katex/fonts/KaTeX_Main-Bold.woff2": "31050a1b1b12",
+ "space-vector/katex/fonts/KaTeX_Main-BoldItalic.woff2": "a4a4905b8b12",
+ "space-vector/katex/fonts/KaTeX_Main-Italic.woff2": "c9b2b5ffd2f2",
+ "space-vector/katex/fonts/KaTeX_Main-Regular.woff2": "c884086c25ce",
+ "space-vector/katex/fonts/KaTeX_Math-BoldItalic.woff2": "8fcb9d2de65a",
+ "space-vector/katex/fonts/KaTeX_Math-Italic.woff2": "db4883d0cff9",
+ "space-vector/katex/fonts/KaTeX_SansSerif-Bold.woff2": "886e61797a52",
+ "space-vector/katex/fonts/KaTeX_SansSerif-Italic.woff2": "3d5fa3cb309f",
+ "space-vector/katex/fonts/KaTeX_SansSerif-Regular.woff2": "e45d5f4f4a7f",
+ "space-vector/katex/fonts/KaTeX_Script-Regular.woff2": "63b80959f1fc",
+ "space-vector/katex/fonts/KaTeX_Size1-Regular.woff2": "57fa599974a1",
+ "space-vector/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
+ "space-vector/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
+ "space-vector/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
+ "space-vector/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
 };                 // 公開フォルダからの相対パス → 元ファイルのハッシュ
 const FONT_CSS = [
  "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap",
