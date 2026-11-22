@@ -4,9 +4,9 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "sonosaki-slides";
-const VERSION = "622092c83867";
+const VERSION = "eaf83fbc4cd3";
 const FILES = {
- "index.html": "7dcae52100da",
+ "index.html": "4d3f298d6a79",
  "trig/1_graph-shuuki.html": "af8a2d88b064",
  "trig/2_houteishiki-futoushiki.html": "7eb89bc93ed8",
  "trig/3_wa-sa-to-shiki.html": "49a5645c1e44",
@@ -38,7 +38,38 @@ const FILES = {
  "trig/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
  "trig/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
  "trig/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
- "trig/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
+ "trig/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6",
+ "exp-log/1_shisuu-keisan.html": "cf1682a458ae",
+ "exp-log/2_graph-daishou.html": "773c17d2f5df",
+ "exp-log/3_houteishiki-futoushiki.html": "9cbd508c9009",
+ "exp-log/4_saidai-saishou.html": "0a4641f1d388",
+ "exp-log/5_taisuu-keisan.html": "e74194c154ed",
+ "exp-log/6_taisuu-graph.html": "811ed3208712",
+ "exp-log/7_taisuu-houteishiki.html": "8cc52d0edb22",
+ "exp-log/8_log-okikae.html": "d274980c65d7",
+ "exp-log/9_jouyou-taisuu.html": "659fb21fb5e3",
+ "exp-log/katex/katex.min.css": "3f94e1b737ae",
+ "exp-log/katex/katex.min.js": "4881bfc93aaf",
+ "exp-log/katex/fonts/KaTeX_AMS-Regular.woff2": "34494743736f",
+ "exp-log/katex/fonts/KaTeX_Caligraphic-Bold.woff2": "5bfa49cac46c",
+ "exp-log/katex/fonts/KaTeX_Caligraphic-Regular.woff2": "9f8077e0b38a",
+ "exp-log/katex/fonts/KaTeX_Fraktur-Bold.woff2": "f98f89272eca",
+ "exp-log/katex/fonts/KaTeX_Fraktur-Regular.woff2": "a5764c6e2784",
+ "exp-log/katex/fonts/KaTeX_Main-Bold.woff2": "31050a1b1b12",
+ "exp-log/katex/fonts/KaTeX_Main-BoldItalic.woff2": "a4a4905b8b12",
+ "exp-log/katex/fonts/KaTeX_Main-Italic.woff2": "c9b2b5ffd2f2",
+ "exp-log/katex/fonts/KaTeX_Main-Regular.woff2": "c884086c25ce",
+ "exp-log/katex/fonts/KaTeX_Math-BoldItalic.woff2": "8fcb9d2de65a",
+ "exp-log/katex/fonts/KaTeX_Math-Italic.woff2": "db4883d0cff9",
+ "exp-log/katex/fonts/KaTeX_SansSerif-Bold.woff2": "886e61797a52",
+ "exp-log/katex/fonts/KaTeX_SansSerif-Italic.woff2": "3d5fa3cb309f",
+ "exp-log/katex/fonts/KaTeX_SansSerif-Regular.woff2": "e45d5f4f4a7f",
+ "exp-log/katex/fonts/KaTeX_Script-Regular.woff2": "63b80959f1fc",
+ "exp-log/katex/fonts/KaTeX_Size1-Regular.woff2": "57fa599974a1",
+ "exp-log/katex/fonts/KaTeX_Size2-Regular.woff2": "ee18713634a3",
+ "exp-log/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
+ "exp-log/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
+ "exp-log/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6"
 };                 // 公開フォルダからの相対パス → 元ファイルのハッシュ
 const FONT_CSS = [
  "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap",
