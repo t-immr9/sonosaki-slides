@@ -4,9 +4,9 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "sonosaki-slides";
-const VERSION = "aefcb4c20b4e";
+const VERSION = "58eafd9fd089";
 const FILES = {
- "index.html": "03b18ace3b3b",
+ "index.html": "d9ec183c12e9",
  "quadratic/1_houteishiki-graph.html": "a5ba8ea73197",
  "quadratic/2_futoushiki.html": "a849470834b8",
  "quadratic/3_hanbetsushiki.html": "e8b7ccf7dead",
