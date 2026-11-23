@@ -4,7 +4,7 @@
    ・ページを開いたら、科目の全スライドを裏で1つずつ取って保存する（まだ開いていない回もオフラインで開けるように）。
      中身が変わったものだけ取り直す（ハッシュで判断）。 */
 const NS = "sonosaki-slides";
-const VERSION = "f4745423ecbf";
+const VERSION = "2e53fe45a667";
 const FILES = {
  "index.html": "1e20d72d5aaf",
  "quadratic/1_houteishiki-graph.html": "a5ba8ea73197",
@@ -41,7 +41,7 @@ const FILES = {
  "quadratic/katex/fonts/KaTeX_Size3-Regular.woff2": "19a7caadfb66",
  "quadratic/katex/fonts/KaTeX_Size4-Regular.woff2": "9bed17fb92f2",
  "quadratic/katex/fonts/KaTeX_Typewriter-Regular.woff2": "7a08883fffc6",
- "data-analysis/1_daihyouchi.html": "3f035bd899f9",
+ "data-analysis/1_daihyouchi.html": "386004dd4bae",
  "data-analysis/2_chuuouchi-moji.html": "34a36f15f6cb",
  "data-analysis/3_shibuni-hakohige.html": "c2a094b6157c",
  "data-analysis/4_bunsan.html": "857e1504e948",
